@@ -43,6 +43,6 @@ cacheSolve <- function(x, ...) {
     xInv <- solve(xMat)
     # Put the inverse in the cache in case we need it
     x$setInverse(xInv)
-    # Return the computerd inverse
+    # Return the computed inverse
     xInv
 }
